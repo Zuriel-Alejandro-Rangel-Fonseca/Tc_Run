@@ -1,0 +1,25 @@
+.fondo-degradado{
+    background: rgb(241, 243, 110);
+}
+
+@media (max-width: 600px){
+    .fondo-degradado{
+        /*background-image: rgb(251, 255, 0);*/
+        background: linear-gradient(rgb(241, 243, 110), rgba(255,0,0,0) );
+    }
+}
+
+.flecha-left{
+    background: linear-gradient(to right, rgba(172, 172, 172, 0.781), rgba(255, 255, 255, 0));
+}
+
+.flecha-right{
+    background: linear-gradient(to left, rgba(172, 172, 172, 0.781), rgba(255, 255, 255, 0));
+}
+
+.footer{
+    background: rgb(241, 243, 110);
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
